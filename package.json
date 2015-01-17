@@ -1,6 +1,6 @@
 {
   "name": "reddsight",
-  "description": "An open-source frontend for the Reddsight API. The Reddsight API provides you with a convenient, powerful and simple way to query and broadcast data on the Reddcoin network and build your own services with it.",
+  "description": "An open-source frontend for the Opalsight API. The Opalsight API provides you with a convenient, powerful and simple way to query and broadcast data on the Opalcoin network and build your own services with it.",
   "version": "0.2.6",
   "author": {
     "name": "Larry Ren",

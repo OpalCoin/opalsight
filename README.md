@@ -1,11 +1,11 @@
 # *reddsight*
 
-*Reddsight* is an open-source Reddcoin blockchain explorer with complete REST and websocket APIs.
-Reddsight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
+*Opalsight* is an open-source Opalcoin blockchain explorer with complete REST and websocket APIs.
+Opalsight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
 
 Check some screenshots and more details at [reddsight's project homepage](https://github.com/reddcoin-project/reddsight).
 
-*Reddsight* project is now split in two repositories. One for the [API](https://github.com/reddcoin-project/reddsight-api)
+*Opalsight* project is now split in two repositories. One for the [API](https://github.com/reddcoin-project/reddsight-api)
 and for the front-end. This repository is for the front-end, which will install the API as a NPM dependency.
 
 
