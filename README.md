@@ -1,11 +1,11 @@
-# *reddsight*
+# *opalsight*
 
 *Opalsight* is an open-source Opalcoin blockchain explorer with complete REST and websocket APIs.
 Opalsight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
 
-Check some screenshots and more details at [reddsight's project homepage](https://github.com/reddcoin-project/reddsight).
+Check some screenshots and more details at [opalsight's project homepage](https://github.com/opalcoin/opalsight).
 
-*Opalsight* project is now split in two repositories. One for the [API](https://github.com/reddcoin-project/reddsight-api)
+*Opalsight* project is now split in two repositories. One for the [API](https://github.com/opalcoin/opalsight-api)
 and for the front-end. This repository is for the front-end, which will install the API as a NPM dependency.
 
 
@@ -19,9 +19,9 @@ and for the front-end. This repository is for the front-end, which will install 
 ## Quick Install
   Check the Prerequisites section above before installing.
 
-  To install reddsight, clone the main repository:
+  To install opalsight, clone the main repository:
 
-    $ git clone https://github.com/reddcoin-project/reddsight.git && cd reddsight
+    $ git clone https://github.com/opalcoin/opalsight.git && cd opalsight
 
   Install dependencies:
 
@@ -35,8 +35,8 @@ and for the front-end. This repository is for the front-end, which will install 
 
     http://localhost:3000
 
-  If *reddsight* reports problems connecting to **reddcoind** please check the CONFIGURATION section of 
-  [reddsight-api README](https://github.com/reddcoin-project/reddsight-api/blob/master/README.md). To set the 
+  If *opalsight* reports problems connecting to **opalcoind** please check the CONFIGURATION section of 
+  [opalsight-api README](https://github.com/opalcoin/opalsight-api/blob/master/README.md). To set the 
   environment variables run something like:
   
      $ INSIGHT_NETWORK=livenet BITCOIND_USER=user BITCOIND_PASS=pass INSIGHT_PUBLIC_PATH=public  npm start
@@ -45,17 +45,17 @@ and for the front-end. This repository is for the front-end, which will install 
   Please note that the app will need to sync its internal database
   with the blockchain state, which may take some time. You can check
   sync progress from within the web interface. More details about that process
-  on [reddsight-api README](https://github.com/reddcoin-project/reddsight-api/blob/master/README.md). 
+  on [opalsight-api README](https://github.com/opalcoin/opalsight-api/blob/master/README.md). 
   
   
 ## Nginx Setup
 
-To use Nginx as a reverse proxy for reddsight, use the following base [configuration](https://gist.github.com/matiu/bdd5e55ff0ad90b54261)
+To use Nginx as a reverse proxy for opalsight, use the following base [configuration](https://gist.github.com/matiu/bdd5e55ff0ad90b54261)
 
 
 ## Development
 
-To run reddsight locally for development mode:
+To run opalsight locally for development mode:
 
 Install bower dependencies:
 
@@ -75,36 +75,36 @@ There is a convenient Gruntfile.js for automation during editing the code
 $ grunt
 ```
 
-In case you are developing *reddsight* and *reddsight-api* together, you can do the following:
+In case you are developing *opalsight* and *opalsight-api* together, you can do the following:
 
-* Install reddsight and reddsight-api on the same path ($IROOT)
+* Install opalsight and opalsight-api on the same path ($IROOT)
 
 ```
-  $ cd $IROOT/reddsight
+  $ cd $IROOT/opalsight
   $ grunt
 ```
 
 in other terminal:
 
 ```
-  $ cd $IROOT/reddsight-api
-  $ ln -s ../reddsight/public
+  $ cd $IROOT/opalsight-api
+  $ ln -s ../opalsight/public
   $ INSIGHT_PUBLIC_PATH=public node insight.js 
 ```
 
 
 ``` 
-INSIGHT_PUBLIC_PATH=reddsight/public  grunt
+INSIGHT_PUBLIC_PATH=opalsight/public  grunt
 ```
 
-at reddsight-api's home path (edit the path according your setup).
+at opalsight-api's home path (edit the path according your setup).
 
-**also** in the reddsight-api path. (So you will have to grunt process running, one for reddsight and one for reddsight-api).
+**also** in the opalsight-api path. (So you will have to grunt process running, one for opalsight and one for opalsight-api).
 
 
 ## Multilanguage support
 
-reddsight use [angular-gettext](http://angular-gettext.rocketeer.be) for
+opalsight use [angular-gettext](http://angular-gettext.rocketeer.be) for
 multilanguage support. 
 
 To enable a text to be translated, add the ***translate*** directive to html tags. See more details [here](http://angular-gettext.rocketeer.be/dev-guide/annotate/). Then, run:
@@ -131,11 +131,11 @@ compile***.
 
 ## Note
 
-For more details about the *reddsight-api* configs and end-point, just go to [reddsight-api github repository](https://github.com/reddcoin-project/reddsight-api) or read the [documentation](https://github.com/reddcoin-project/reddsight-api/blob/master/README.md)
+For more details about the *opalsight-api* configs and end-point, just go to [opalsight-api github repository](https://github.com/opalcoin/opalsight-api) or read the [documentation](https://github.com/opalcoin/opalsight-api/blob/master/README.md)
 
 ## Contribute
 
-Contributions and suggestions are welcomed at [reddsight github repository](https://github.com/reddcoin-project/reddsight).
+Contributions and suggestions are welcomed at [opalsight github repository](https://github.com/opalcoin/opalsight).
 
 
 ## License

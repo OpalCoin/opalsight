@@ -1,20 +1,20 @@
 {
-  "name": "reddsight",
+  "name": "opalsight",
   "description": "An open-source frontend for the Opalsight API. The Opalsight API provides you with a convenient, powerful and simple way to query and broadcast data on the Opalcoin network and build your own services with it.",
   "version": "0.2.6",
   "author": {
     "name": "Larry Ren",
-    "email": "ren@reddcoin.com"
+    "email": "ren@opalcoin.com"
   },
-  "repository": "git://github.com/reddcoin-project/reddsight.git",
+  "repository": "git://github.com/opalcoin/opalsight.git",
   "contributors": [
     {
       "name": "Mike Croteau",
-      "email": "mike@reddcoin.com"
+      "email": "mike@opalcoin.com"
     },
     {
       "name": "Andrew Groff",
-      "email": "andrew@reddcoin.com"
+      "email": "andrew@opalcoin.com"
     },
     {
       "name": "Ryan X Charles",
@@ -42,23 +42,23 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/reddcoin-project/reddsight/issues"
+    "url": "https://github.com/opalcoin/opalsight/issues"
   },
-  "homepage": "https://github.com/reddcoin-project/reddsight",
+  "homepage": "https://github.com/opalcoin/opalsight",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "reddcoin",
+    "opalcoin",
     "bitcore",
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/reddsight-api"
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/opalsight-api"
   },
   "dependencies": {
-    "reddsight-api": "git://github.com/reddcoin-project/reddsight-api.git"
+    "opalsight-api": "git://github.com/opalcoin/opalsight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
